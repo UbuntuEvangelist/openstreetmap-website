@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "4.2.4"
+gem "rails", "4.2.8"
 
 # Sprockets 3 seems to be buggy, so stick with 2 for now
 gem "sprockets", "~> 2.12.3"
@@ -13,46 +13,46 @@ gem "bigdecimal", "~> 1.1.0", :platforms => :ruby_19
 gem "psych", :platforms => :ruby_20
 
 # Require json for multi_json
-gem "json"
+gem "json", ">= 2.3.0"
 
 # Use postgres as the database
 gem "pg"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.3"
 
 # Use Uglifier as compressor for JavaScript assets
-gem "uglifier", ">= 1.3.0"
+gem "uglifier", ">= 2.7.1"
 
 # Use CoffeeScript for .js.coffee assets and views
 gem "coffee-rails", "~> 4.1.0"
 
 # Use jquery as the JavaScript library
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.0.4"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
-gem "jsonify-rails"
+gem "jsonify-rails", ">= 0.3.2"
 
 # Use R2 for RTL conversion
 gem "r2"
 
 # Use autoprefixer to generate CSS prefixes
-gem "autoprefixer-rails"
+gem "autoprefixer-rails", ">= 5.2.1.2"
 
 # Load rails plugins
-gem "rails-i18n", "~> 4.0.0"
+gem "rails-i18n", "~> 4.0.4"
 gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
 gem "validates_email_format_of", ">= 1.5.1"
-gem "composite_primary_keys", "~> 8.1.0"
+gem "composite_primary_keys", "~> 8.1.1"
 gem "http_accept_language", "~> 2.0.0"
-gem "paperclip", "~> 4.0"
+gem "paperclip", "~> 4.3", ">= 4.3.0"
 gem "deadlock_retry", ">= 1.2.0"
 gem "i18n-js", ">= 3.0.0.rc10"
 gem "rack-cors"
-gem "actionpack-page_caching"
+gem "actionpack-page_caching", ">= 1.0.2"
 
 # Omniauth for authentication
 gem "omniauth"
@@ -103,7 +103,7 @@ end
 # Needed in development as well so rake can see konacha tasks
 group :development, :test do
   gem "jshint"
-  gem "konacha"
+  gem "konacha", ">= 3.5.1"
   gem "poltergeist"
-  gem "coveralls", :require => false
+  gem "coveralls", ">= 0.8.14", :require => false
 end
