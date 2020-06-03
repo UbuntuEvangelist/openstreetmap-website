@@ -104,6 +104,6 @@ end
 group :development, :test do
   gem "jshint"
   gem "konacha"
-  gem "poltergeist"
+  gem "poltergeist", ">= 1.6.0"
   gem "coveralls", :require => false
 end
