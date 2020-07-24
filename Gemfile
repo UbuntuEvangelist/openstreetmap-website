@@ -52,7 +52,7 @@ gem "paperclip", "~> 4.0"
 gem "deadlock_retry", ">= 1.2.0"
 gem "i18n-js", ">= 3.0.0.rc10"
 gem "rack-cors"
-gem "actionpack-page_caching"
+gem "actionpack-page_caching", ">= 1.2.1"
 
 # Omniauth for authentication
 gem "omniauth"
