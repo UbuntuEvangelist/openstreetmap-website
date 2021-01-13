@@ -55,14 +55,14 @@ gem "rack-cors"
 gem "actionpack-page_caching"
 
 # Omniauth for authentication
-gem "omniauth"
+gem "omniauth", ">= 2.0.0"
 gem "omniauth-openid"
 gem "openstreetmap-omniauth-google-oauth2", ">= 0.2.6.1", :require => "omniauth-google-oauth2"
-gem "omniauth-facebook"
-gem "omniauth-windowslive"
+gem "omniauth-facebook", ">= 2.0.1"
+gem "omniauth-windowslive", ">= 0.0.9.1"
 
 # Markdown formatting support
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 
 # Load libxml support for XML parsing and generation
 gem "libxml-ruby", ">= 2.0.5", :require => "libxml"
