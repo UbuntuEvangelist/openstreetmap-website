@@ -56,7 +56,7 @@ gem "actionpack-page_caching"
 
 # Omniauth for authentication
 gem "omniauth"
-gem "omniauth-openid"
+gem "omniauth-openid", ">= 2.0.1"
 gem "openstreetmap-omniauth-google-oauth2", ">= 0.2.6.1", :require => "omniauth-google-oauth2"
 gem "omniauth-facebook"
 gem "omniauth-windowslive"
