@@ -19,7 +19,7 @@ gem "json"
 gem "pg"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.3"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
@@ -28,11 +28,11 @@ gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.1.0"
 
 # Use jquery as the JavaScript library
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.0.4"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
-gem "jsonify-rails"
+gem "jsonify-rails", ">= 0.3.2"
 
 # Use R2 for RTL conversion
 gem "r2"
@@ -41,7 +41,7 @@ gem "r2"
 gem "autoprefixer-rails"
 
 # Load rails plugins
-gem "rails-i18n", "~> 4.0.0"
+gem "rails-i18n", "~> 4.0.4"
 gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
@@ -52,7 +52,7 @@ gem "paperclip", "~> 4.0"
 gem "deadlock_retry", ">= 1.2.0"
 gem "i18n-js", ">= 3.0.0.rc10"
 gem "rack-cors"
-gem "actionpack-page_caching"
+gem "actionpack-page_caching", ">= 1.0.2"
 
 # Omniauth for authentication
 gem "omniauth"
@@ -68,7 +68,7 @@ gem "redcarpet"
 gem "libxml-ruby", ">= 2.0.5", :require => "libxml"
 
 # Use for HTML sanitisation
-gem "sanitize"
+gem "sanitize", ">= 4.0.0"
 gem "htmlentities"
 
 # Load SystemTimer for implementing request timeouts
@@ -103,7 +103,7 @@ end
 # Needed in development as well so rake can see konacha tasks
 group :development, :test do
   gem "jshint"
-  gem "konacha"
-  gem "poltergeist"
+  gem "konacha", ">= 3.5.1"
+  gem "poltergeist", ">= 1.6.0"
   gem "coveralls", :require => false
 end
