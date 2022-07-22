@@ -19,7 +19,7 @@ gem "json"
 gem "pg"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.3"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
@@ -41,14 +41,14 @@ gem "r2"
 gem "autoprefixer-rails"
 
 # Load rails plugins
-gem "rails-i18n", "~> 4.0.0"
+gem "rails-i18n", "~> 4.0.4"
 gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
 gem "validates_email_format_of", ">= 1.5.1"
-gem "composite_primary_keys", "~> 8.1.0"
+gem "composite_primary_keys", "~> 8.1.1"
 gem "http_accept_language", "~> 2.0.0"
-gem "paperclip", "~> 4.0"
+gem "paperclip", "~> 4.3", ">= 4.3.0"
 gem "deadlock_retry", ">= 1.2.0"
 gem "i18n-js", ">= 3.0.0.rc10"
 gem "rack-cors"
