@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "4.2.4"
+gem "rails", "5.2.8.1"
 
 # Sprockets 3 seems to be buggy, so stick with 2 for now
 gem "sprockets", "~> 2.12.3"
@@ -46,7 +46,7 @@ gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
 gem "validates_email_format_of", ">= 1.5.1"
-gem "composite_primary_keys", "~> 8.1.0"
+gem "composite_primary_keys", "~> 11.0.0"
 gem "http_accept_language", "~> 2.0.0"
 gem "paperclip", "~> 4.0"
 gem "deadlock_retry", ">= 1.2.0"
