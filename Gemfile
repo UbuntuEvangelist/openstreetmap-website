@@ -10,7 +10,7 @@ gem "sprockets", "~> 2.12.3"
 gem "bigdecimal", "~> 1.1.0", :platforms => :ruby_19
 
 # Require things which have moved to gems in ruby 2.0
-gem "psych", :platforms => :ruby_20
+gem "psych", ">= 2.0.17", :platforms => :ruby_20
 
 # Require json for multi_json
 gem "json"
