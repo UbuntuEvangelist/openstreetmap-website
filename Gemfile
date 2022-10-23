@@ -19,7 +19,7 @@ gem "json"
 gem "pg"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.3"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
@@ -41,7 +41,7 @@ gem "r2"
 gem "autoprefixer-rails"
 
 # Load rails plugins
-gem "rails-i18n", "~> 4.0.0"
+gem "rails-i18n", "~> 4.0.4"
 gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
@@ -55,8 +55,8 @@ gem "rack-cors"
 gem "actionpack-page_caching"
 
 # Omniauth for authentication
-gem "omniauth"
-gem "omniauth-openid"
+gem "omniauth", ">= 2.1.0"
+gem "omniauth-openid", ">= 2.0.1"
 gem "openstreetmap-omniauth-google-oauth2", ">= 0.2.6.1", :require => "omniauth-google-oauth2"
 gem "omniauth-facebook"
 gem "omniauth-windowslive"
