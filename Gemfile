@@ -82,7 +82,7 @@ gem "httpclient"
 gem "soap4r-ruby1.9"
 
 # Load memcache client in case we are using it
-gem "dalli"
+gem "dalli", ">= 3.2.3"
 gem "kgio"
 
 # Used to generate logstash friendly log files
