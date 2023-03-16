@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "4.2.4"
+gem "rails", "6.1.7.3"
 
 # Sprockets 3 seems to be buggy, so stick with 2 for now
 gem "sprockets", "~> 2.12.3"
@@ -19,16 +19,16 @@ gem "json"
 gem "pg"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.8"
 
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 1.3.0"
 
 # Use CoffeeScript for .js.coffee assets and views
-gem "coffee-rails", "~> 4.1.0"
+gem "coffee-rails", "~> 4.2.2"
 
 # Use jquery as the JavaScript library
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.1.1"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
@@ -41,18 +41,18 @@ gem "r2"
 gem "autoprefixer-rails"
 
 # Load rails plugins
-gem "rails-i18n", "~> 4.0.0"
+gem "rails-i18n", "~> 6.0.0"
 gem "dynamic_form"
 gem "rinku", ">= 1.2.2", :require => "rails_rinku"
 gem "oauth-plugin", ">= 0.5.1"
 gem "validates_email_format_of", ">= 1.5.1"
-gem "composite_primary_keys", "~> 8.1.0"
+gem "composite_primary_keys", "~> 13.0.0"
 gem "http_accept_language", "~> 2.0.0"
-gem "paperclip", "~> 4.0"
+gem "paperclip", "~> 4.3", ">= 4.3.0"
 gem "deadlock_retry", ">= 1.2.0"
 gem "i18n-js", ">= 3.0.0.rc10"
 gem "rack-cors"
-gem "actionpack-page_caching"
+gem "actionpack-page_caching", ">= 1.2.0"
 
 # Omniauth for authentication
 gem "omniauth"
