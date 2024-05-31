@@ -68,7 +68,7 @@ gem "redcarpet"
 gem "libxml-ruby", ">= 2.0.5", :require => "libxml"
 
 # Use for HTML sanitisation
-gem "sanitize"
+gem "sanitize", ">= 4.0.1"
 gem "htmlentities"
 
 # Load SystemTimer for implementing request timeouts
